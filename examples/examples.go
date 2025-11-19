@@ -3,7 +3,7 @@ package examples
 import (
 	"fmt"
 
-	"github.com/singhJasvinder101/toon_cli/converter"
+	"github.com/singhJasvinder101/toon_convertor/converter"
 )
 
 func RunAllExamples() {

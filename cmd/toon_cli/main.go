@@ -8,7 +8,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/singhJasvinder101/toon_cli/converter"
+	"github.com/singhJasvinder101/toon_convertor/converter"
 )
 
 func main() {

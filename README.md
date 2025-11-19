@@ -16,12 +16,12 @@ A Go package for converting JSON to TOON (Token-Oriented Object Notation) format
 
 ### As a Library (for Go projects)
 ```bash
-go get github.com/singhJasvinder101/toon_cli/converter
+go get github.com/singhJasvinder101/toon_convertor/converter
 ```
 
 ### As a CLI Tool
 ```bash
-go install github.com/singhJasvinder101/toon_cli
+go install github.com/singhJasvinder101/toon_convertor
 ```
 
 ## Usage (as a library)
@@ -31,7 +31,7 @@ package main
 
 import (
     "fmt"
-    "github.com/singhJasvinder101/toon_cli/converter"
+    "github.com/singhJasvinder101/toon_convertor/converter"
 )
 
 func main() {
@@ -78,14 +78,14 @@ toon3, err := conv.ConvertFromInterface(data)
 
 ## Usage (as a cli)
 ```bash
-echo '{"name": "Alice", "age": 30}' | toon_cli
+echo '{"name": "Alice", "age": 30}' | toon_convertor
 
-toon_cli -input data.json
+toon_convertor -input data.json
 
 # convert from file to file
-toon_cli -input data.json -output data.toon
+toon_convertor -input data.json -output data.toon
 
-toon_cli -input data.json -output data.toon -indent 4
+toon_convertor -input data.json -output data.toon -indent 4
 ```
 
 ## JSON vs TOON Comparison
